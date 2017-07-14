@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,2">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:text="@string/name"
+                    android:id="@+id/textView18"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:id="@+id/name"
+                    android:layout_column="1"
+                    android:layout_span="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:text="@string/specialty"
+                    android:id="@+id/textView20"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/specialty"
+                    android:singleLine="true"
+                    android:layout_column="1"
+                    android:editable="false"
+                    android:layout_span="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:text="@string/sort"
+                    android:id="@+id/textView24"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp" />
+
+                <RadioGroup
+                    android:id="@+id/orderGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/az"
+                        android:id="@+id/c" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/distance_from"
+                        android:id="@+id/d" />
+                </RadioGroup>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="@string/postcode"
+                    android:id="@+id/postcode"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/button_text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/search"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/white"
+                    android:id="@+id/send"
+                    android:textStyle="bold"
+                    android:layout_marginRight="8dp"
+                    android:layout_column="1"
+                    android:layout_span="3" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_span="4"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginTop="8dp"></LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.medx.android.utils.views.PtrClassicCustomLayout
+                android:id="@+id/ptr"
+                xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f0f0f0"
+                cube_ptr:ptr_resistance="1.7"
+                cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+                cube_ptr:ptr_duration_to_close="200"
+                cube_ptr:ptr_duration_to_close_header="1000"
+                cube_ptr:ptr_keep_header_when_refresh="true"
+                cube_ptr:ptr_pull_to_fresh="false">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </com.medx.android.utils.views.PtrClassicCustomLayout>
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center" />
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>

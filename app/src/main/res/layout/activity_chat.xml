@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.medx.android.utils.views.MXSoftKeyboardLsnedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:id="@+id/softRoot">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/CustomActionBar">
+
+        <ImageView
+            android:layout_width="@dimen/action_bar_size"
+            android:layout_height="@dimen/action_bar_size"
+            android:id="@+id/close"
+            android:src="@mipmap/close"
+            android:tint="#ffffff"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true"
+            android:text="title"
+            android:id="@+id/title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/action_bar_size"
+            android:layout_marginRight="@dimen/action_bar_size" />
+
+        <ImageView
+            android:layout_width="@dimen/action_bar_size"
+            android:layout_height="@dimen/action_bar_size"
+            android:id="@+id/info"
+            android:src="@mipmap/person"
+            android:tint="#ffffff"
+            android:padding="8dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <com.medx.android.utils.views.PtrClassicCustomLayout
+        android:id="@+id/ptr"
+        xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        cube_ptr:ptr_resistance="1.7"
+        android:layout_weight="1"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+        cube_ptr:ptr_duration_to_close="200"
+        cube_ptr:ptr_duration_to_close_header="1000"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="false">
+    <android.support.v7.widget.RecyclerView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    </com.medx.android.utils.views.PtrClassicCustomLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="@dimen/action_bar_size"
+            android:layout_height="@dimen/action_bar_size"
+            android:id="@+id/attach"
+            android:src="@mipmap/attachments"
+            android:padding="12dp"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="New message"
+            android:id="@+id/message"
+            android:layout_toLeftOf="@+id/send"
+            android:layout_toRightOf="@+id/attach"
+            android:background="@android:color/white"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:textAllCaps="false"
+            android:id="@+id/send"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</LinearLayout>
+    <include layout="@layout/notification_view" />
+
+
+</com.medx.android.utils.views.MXSoftKeyboardLsnedRelativeLayout>

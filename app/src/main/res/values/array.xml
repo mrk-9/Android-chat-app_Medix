@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="logout_time">
+        <item>1 Hour</item>
+        <item>1 Day</item>
+        <item>3 Days</item>
+        <item>1 Week</item>
+    </string-array>
+
+    <string-array name="prefix_name">
+        <item>Dr.</item>
+        <item>Mr.</item>
+        <item>Ms.</item>
+        <item>A/Prof.</item>
+        <item>Prof.</item>
+    </string-array>
+
+    <string-array name="specialty">
+        <item>All Specialties</item>
+        <item>Addiction medicine</item>
+        <item>Anaesthesia</item>
+        <item>Dermatology</item>
+        <item>Emergency medicine</item>
+        <item>General practice</item>
+        <item>Intensive care</item>
+        <item>Obstetrics and gynaecology</item>
+        <item>Ophthalmology</item>
+        <item>Paediatrics - Cardiology</item>
+        <item>Paediatrics - Clinical genetics</item>
+        <item>Paediatrics - Clinical pharmacology</item>
+        <item>Paediatrics - Community child health</item>
+        <item>Paediatrics - Emergency medicine</item>
+        <item>Paediatrics - Endocrinology</item>
+        <item>Paediatrics - Gastroenterology and hepatology</item>
+        <item>Paediatrics - General</item>
+        <item>Paediatrics - Haematology</item>
+        <item>Paediatrics - Immunology and allergy</item>
+        <item>Paediatrics - Infectious diseases</item>
+        <item>Paediatrics - Intensive care</item>
+        <item>Paediatrics - Medical oncology</item>
+        <item>Paediatrics - Neonatal and perinatal medicine</item>
+        <item>Paediatrics - Nephrology</item>
+        <item>Paediatrics - Neurology</item>
+        <item>Paediatrics - Nuclear medicine</item>
+        <item>Paediatrics - Palliative medicine</item>
+        <item>Paediatrics - Rehabilitation medicine</item>
+        <item>Paediatrics - Respiratory and sleep medicine</item>
+        <item>Paediatrics - Rheumatology</item>
+        <item>Pain medicine</item>
+        <item>Pathology</item>
+        <item>Physician - Cardiology</item>
+        <item>Physician - Clinical genetics</item>
+        <item>Physician - Clinical pharmacology</item>
+        <item>Physician - Endocrinology</item>
+        <item>Physician - Gastroenterology and hepatology</item>
+        <item>Physician - General</item>
+        <item>Physician - Geriatric medicine</item>
+        <item>Physician - Haematology</item>
+        <item>Physician - Immunology and allergy</item>
+        <item>Physician - Infectious diseases</item>
+        <item>Physician - Medical oncology</item>
+        <item>Physician - Nephrology</item>
+        <item>Physician - Neurology</item>
+        <item>Physician - Nuclear medicine</item>
+        <item>Physician - Palliative medicine</item>
+        <item>Physician - Respiratory and sleep medicine</item>
+        <item>Physician - Rheumatology</item>
+        <item>Psychiatry</item>
+        <item>Radiation oncology</item>
+        <item>Radiology</item>
+        <item>Rehabilitation medicine</item>
+        <item>Sexual health medicine</item>
+        <item>Sport and exercise medicine</item>
+        <item>Surgery - Cardio-thoracic</item>
+        <item>Surgery - General</item>
+        <item>Surgery - Neurosurgery</item>
+        <item>Surgery - Oral and maxillofacial</item>
+        <item>Surgery - Orthopaedic</item>
+        <item>Surgery - Otolaryngology</item>
+        <item>Surgery - Paediatric</item>
+        <item>Surgery - Plastics</item>
+        <item>Surgery - Urology</item>
+        <item>Surgery - Vascular</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="walkthrough_heads">
+        <item>Secure Messaging\nfor Australian Doctors</item>
+        <item>Closed Network</item>
+        <item>Point-to-Point Encryption</item>
+        <item>Searchable Directory</item>
+        <item>Back-up SMS notifications</item>
+    </string-array>
+
+    <string-array name="walkthrough_bodies">
+        <item> </item>
+        <item>MedX is only available to AHPRA registered doctors.\n\nAll users are telephone verified so you know who you are communicating with.</item>
+        <item>Military grade security for exchanging sensitive medical details and images.\n\nAll messages automatically expire after 7 days.</item>
+        <item>Find and connect with other doctors by name or specialty.\n\nIf you are using MedX, other doctors can easily find you to make referrals, and there is no need to give out your mobile phone number any more.</item>
+        <item>Get reminded to check unread messages even when your MedX application is not  turned on.</item>
+    </string-array>
+
+    <array name="avatar_colors">
+        <item>#FFCC9462</item>
+        <item>#FFBB683E</item>
+        <item>#FF914E30</item>
+        <item>#FF7A3F29</item>
+        <item>#FF502E1B</item>
+        <item>#FF392D13</item>
+        <item>#FF25260D</item>
+        <item>#FF171F0A</item>
+        <item>#FF06130A</item>
+        <item>#FF0D0410</item>
+        <item>#FF1B0C2C</item>
+        <item>#FF121164</item>
+        <item>#FF142A4D</item>
+        <item>#FF123744</item>
+        <item>#FF12443D</item>
+        <item>#FF13491A</item>
+        <item>#FFD030F0</item>
+        <item>#FF2CA589</item>
+        <item>#FF89B530</item>
+        <item>#FFD0CC4E</item>
+        <item>#FFE3A296</item>
+
+    </array>
+
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/notification_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#3498db"
+        android:visibility="gone"
+        android:padding="10dp" >
+        <ImageView android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/alert_ic"
+            android:layout_marginRight="10dp" />
+        <TextView android:id="@+id/not_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image"
+            style="Custom Notification Title" />
+        <TextView android:id="@+id/not_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:layout_below="@id/not_title"
+            android:textColor="@android:color/white"
+            style="Custom Notification Text" />
+    </RelativeLayout>
+</merge>

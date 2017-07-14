@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/walkthrough"
+        android:layout_above="@+id/circles"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/circles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/relativeLayout"
+        android:padding="4dp"
+        app:radius="3dp"
+        app:fillColor="#2D4486"
+        app:pageColor="#AAA"
+        app:strokeColor="@android:color/transparent"
+        app:strokeWidth="0dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:textSize="@dimen/button_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Sign In"
+            android:id="@+id/signIn"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="@dimen/button_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Register"
+            android:id="@+id/register"
+            android:layout_below="@+id/signIn"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

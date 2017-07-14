@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/CustomActionBar">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="@dimen/action_bar_size"
+            android:layout_height="@dimen/action_bar_size"
+            android:padding="8dp"
+            android:src="@mipmap/close"
+            android:tint="#ffffff" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/action_bar_size"
+            android:layout_marginRight="@dimen/action_bar_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+        <include layout="@layout/notification_view" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_margin="16dp"
+                        android:text="@string/specialty"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/specialty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Small Text"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_margin="16dp"
+                        android:text="@string/about"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/about"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:paddingRight="20dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Small Text"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_margin="16dp"
+                        android:text="@string/offices"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/offices"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Small Text"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </TableRow>
+            </TableLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="0dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="24dp"
+            android:text="@string/chat"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size" />
+
+        <TextView
+            android:id="@+id/block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/block_user"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/appNoteInstalled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="6dp"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizontal_line"
+            android:paddingLeft="12dp"
+            android:text="@string/note"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizontal_line"
+            android:paddingRight="12dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/note"
+            android:textColor="@color/black"
+            android:text="@string/note_medx_not_installed" />
+    </RelativeLayout>
+
+</LinearLayout>

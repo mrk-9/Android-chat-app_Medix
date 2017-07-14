@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@android:color/holo_red_light">
+        <!-- Dummy view -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_location"
+            android:id="@+id/title"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="16dp" />
+
+        <ImageView
+            android:layout_width="@dimen/action_bar_size"
+            android:layout_height="@dimen/action_bar_size"
+            android:padding="8dp"
+            android:id="@+id/close"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/postcode"
+                android:id="@+id/textView31"
+                android:layout_column="0"
+                android:padding="16dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/postcode"
+                android:hint="@string/postcode"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/street"
+                android:id="@+id/textView32"
+                android:layout_column="0"
+                android:padding="16dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/street"
+                android:singleLine="true"
+                android:hint="@string/street_address"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/office_n"
+                android:id="@+id/textView33"
+                android:layout_column="0"
+                android:padding="16dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:id="@+id/number"
+                android:hint="@string/phone_number"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Address could not found/Invalid. Please review"
+                android:id="@+id/console"
+                android:singleLine="true"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:padding="16dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/button_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/save"
+                android:id="@+id/send"
+                android:textColor="@color/white"
+                android:background="@android:color/holo_red_light"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

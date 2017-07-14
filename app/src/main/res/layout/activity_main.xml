@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pagerTitle"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="56dp"
+            android:layout_gravity="top">
+        </android.support.v4.view.PagerTitleStrip>
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/logout"
+        android:id="@+id/logout"
+        android:visibility="gone" />
+
+    <include layout="@layout/notification_view" />
+</RelativeLayout>

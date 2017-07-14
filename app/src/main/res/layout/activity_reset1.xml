@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        style="@style/CustomActionBar"
+        android:id="@+id/relativeLayout2">
+
+        <ImageView
+            android:layout_width="@dimen/action_bar_size"
+            android:layout_height="@dimen/action_bar_size"
+            android:id="@+id/close"
+            android:src="@mipmap/back_arrow"
+            android:tint="#ffffff"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true"
+            android:text="@string/reset_password"
+            android:id="@+id/title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/action_bar_size"
+            android:layout_marginRight="@dimen/action_bar_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView5" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/reset_phone_text"
+                android:id="@+id/textView8"
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        style="@style/RectEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/mobile_number"
+                        android:id="@+id/enterNumber"
+                        android:singleLine="true"
+                        android:inputType="phone"
+                        android:lines="1"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="@dimen/button_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/submit"
+                        android:id="@+id/submit"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:background="@color/colorPrimary" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/numberError"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/number_blank"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

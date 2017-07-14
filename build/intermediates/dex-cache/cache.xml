@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_4e79103772e1ee2d3cd16f500d4c979ac2da3e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_3e23bba96d7f2277c9937ba760e548567c9e5c13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_407bbbda177d0bc064f33b118ad2a6d1c1a370c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.0_eb41da6a387d9c53f55120f8ff4e809c9a02408b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.0_200d9818c5a7a87ba7d2ab397714551288022266/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_206dc7671c3b01e57c5ccb36ed425a0c1f5fcf32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.1/73ce0d997524a7fd3b06cfc7adbb9e9ef4854754/dagger-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="73ce0d997524a7fd3b06cfc7adbb9e9ef4854754">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.1_be1f41e082caf9e38425b6601427cf6e5283072e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_e28e09c5b4c1f4bf64f51b51b3c642a469d1d49d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.10_ab836c8c26ad8d296e0245a2f726850d79e84850/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_53eeb409eb3f593994d5b0938f54209811b9380e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.14_93a065d59e7da1e1ccb7c241b42b77f3a5d2e285/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.6.5_9d7f44653321f713dadc0def7cb317ddf917dea6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.2.22/a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549/aws-android-sdk-ddb-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-ddb-2.2.22_e90bb743a2c86d95f5a04018fdf57ef046ea9597/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_4f63205487fd05dae86feb78100f2cd7dbbcc80e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/conceal_android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="55d44c5d1b5df7e93cdfcc51e8960c5ad8c21c30">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/conceal_android_f6580a31700ec97eca08b660f775f0e66c1c66af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.22/9bef9beddb1b7579713905702d8219d516bd3954/aws-android-sdk-cognito-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9bef9beddb1b7579713905702d8219d516bd3954">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-cognito-2.2.22_01d711a756226c150ee65cc4a5d4f358df8b9b99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_7357b5054e767982ee00276aa346db4ea4d8bc43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_db40224e2bc340e96d8c4d216bcc71fb70caccef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.2/1f12816593c1422be957471c98a80bfbace60fa2/jackson-databind-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1f12816593c1422be957471c98a80bfbace60fa2">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.8.2_57f5b17aaaa9b28624bf423b01f9e7b1253064d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.0_05a2f63da1d2ae2bb279ec39d1ff9a377c8e5b5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/spring-security-core-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c603b67b96635fa53c4c47ba7d8ca1241f1310c5">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/spring-security-core-2.0.2_b2cd04fbcde944f1c222c377fe0ace7a2f60dda3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="45b426f7796b741035581a176744d91090e2e6fb">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.8.0_31c346c19adcaf6a3b71d6e4a803e16c06747d79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.2.22/40fe82092e0ae3ca549b132a1e7e876807525176/aws-android-sdk-s3-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="40fe82092e0ae3ca549b132a1e7e876807525176">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-s3-2.2.22_36e828a6ceb26406a05277b08340bea39d1da23c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8463b82b54411ba69327ec9e8921957cb0d82a4c">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_315ae190a0a353eadf67197d21d65b57b6d99835/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.github.johnkil.android-appmsg/appmsg/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="398ec51345409df9e36a1de1a81f2b3ad5234bfb">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.johnkil.android-appmsg-appmsg-1.2.0_fecd5a1e6b0ba804d6e2a2e4d5f6cdeff92b2f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_0677c5d91674b198622295d61ccb1de4f2fbd0c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_2bda7e352704f8726c7f0a556e07be58f0984cbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.0_6ef2f8929b9c5d1cc369ef598356f7c23b4e2304/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_17075af883f741cbb86ffe925156fddc36b5dd9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.chanven.lib/cptr/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7e28cb77cf5967ffe233e445c366534321666e7">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.chanven.lib-cptr-1.0.0_78d09e91814fb53ba1b6102d5fb28c4230dc27ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.timehop.stickyheadersrecyclerview/library/0.4.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23bbdaadbcb0f011e809e07ae0a91e24fa55365d">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.timehop.stickyheadersrecyclerview-library-0.4.3_c08babdc63cf00dc29a9be6207073d8b408fe058/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/sun.misc.BASE64Decoder_143281981e3d022d75e7540b9ab602c9e51bd93c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.0_1ba4e478e660fa9317af6a88e886a86d22f689c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.2.22/c6789de00db9d1f93faec881fa0c1f5960fb8a15/aws-android-sdk-core-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c6789de00db9d1f93faec881fa0c1f5960fb8a15">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-core-2.2.22_f5c7c2813867368c3101a67bc12c1c90b7dea384/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/base64-2.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7d2e2cea90cc51169fd02a35888820ab07f6d02f">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/base64-2.3.8_afcde61640e33ced5b3f47c0f366f2937f835ce5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_6dba33ecca2e9da6ffc9a271b7cdde136fa1c933/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.2/df90a91dbb9a7d942361a5613b1666e38dca4844/rxjava-1.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="df90a91dbb9a7d942361a5613b1666e38dca4844">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.2_4343c11de24402ad2e4565d2a9cdd9f6233ba6f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Setup/AndroidStudio/Android Studio.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_56ed052a10aaacdd93cda56749f3cc08fc815db2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/libphonenumber-7.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0cd8d19bcf2067c0c532c2547e6361cfa0cc7c78">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/libphonenumber-7.7.2_fd1fe0751d3770d45a92299cb1c6c02d8aac1bd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/libconceal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1820bc0488e8c0230f49a77a66f961fef4c06881">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/libconceal_cf295877525fd2935eef6d424e38d0231cea10f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.0_84dbe9714f6dd44ff8252b282b336fac2908c221/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_9d54b6231a41047e4088659d02d265c76c4eb134/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_07d1da2cc50e37990fef47095de488e91da52124/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Data/AndroidSDK/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.0_8c8c73974305b0b0e475bb9fdda8ec0a70d8ca37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_2544239e7b20e302de7edcd77a99dd09f4cc8c6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.amitshekhar.android/jackson-android-networking/0.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9fcbc7ee394eef1a12ba404954e2527f23c09212">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.amitshekhar.android-jackson-android-networking-0.2.0_71a4659581462fa8e430e56ebe26e96e923fc7d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_cc6ba09f9b943ae768f98adfd360272e7c793211/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.0_0cd28fe55b5fac63b0e118a94da0967027690685/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bae64da9140d1e78edb6f28a1b4c8831aac4ab88">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/fr.avianey.com.viewpagerindicator-library-2.4.1.1_8b70830e53029fb1b02053fce941d4202cd42cda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.amitshekhar.android/android-networking/0.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f85d941ba578cd5df97f95259b2252d3e8967739">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.amitshekhar.android-android-networking-0.2.0_f4871730e95e1ac2fe805d15ec0e64ca16501533/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/david/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.2/80004060cc6f71a027b81e89ef4d74628f824f/jackson-core-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0080004060cc6f71a027b81e89ef4d74628f824f">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.8.2_81ca6b8810e170dda6f8a117a57c5f5780d90971/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9e90e4d687f324e07b62d4e64aa103e62dec03b">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_814d0f173ea194624990997a6ce1da14efe25b77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.2.2_e0007657e0deb3765b7a6f54b8bd98a2e0e6f7d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c6792fb346d4f11b5b9e6c1a5df3a99c140a9e70">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.leolin-ShortcutBadger-1.1.10_a3c3429eb6af6c7c912386f0314f6cc9530bb041/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.14_973c1bbf7f8974cb2660743d01fb1456db929385/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/libs/bcprov-jdk16-1.46.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ce091790943599535cbb4de8ede84535b0c1260c">
+        <dex dex="/Volumes/Work/aaRuby/aDProject/medx/medx_codebase/medx-android/app/build/intermediates/transforms/dex/debug/folders/1000/2/bcprov-jdk16-1.46_9de28105270818dbd9d97cf7d1556da4b7fed188/classes.dex" />
+    </item>
+
+</items>
